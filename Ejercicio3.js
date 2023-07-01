@@ -29,8 +29,17 @@ let ultimaLetraDelApellido = apellidos[longitud-1];
 console.log(ultimaLetraDelApellido);
 
 // Una cadena de texto que elimine los espacios de la variable "estudiante"
+nombre = "  Rafael";
+apellidos = "toca los    "
+estudiante = `${nombre} ${apellidos}`;
+console.log(estudiante)
+console.log(estudiante.length)
 let sinEspacios = estudiante.trim();
 console.log(sinEspacios);
 console.log(sinEspacios.trim().length)
 
+
+// Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
+let contenido = estudiante.includes(`${nombre}`);
+console.log(contenido);
 
