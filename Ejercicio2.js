@@ -1,0 +1,2 @@
+let ejercicio2 = ["Rafael", 39, true, fecha = new Date('1989-06-29'), libro = { titulo: "Cancionero andaluz", auto: "anónimo", fechaLibro: 1950, url: "https://www.casadellibro.com/libro-cancionero-andaluz/mkt0006707242/13043130" }]
+console.log(ejercicio2);
