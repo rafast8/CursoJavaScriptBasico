@@ -1,0 +1,38 @@
+function persona(nombre, apellido, edad, ojos) 
+        {this.nombre = nombre; this.apellido = apellido; this.edad = edad; this.colorOjos = ojos;}
+
+let x = "Jhon";
+let y = new persona ("Jhon", "Doe", 22,  "verdes")
+let z = new persona ("Pepe", "Perez", 44,  "Marrones")
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(x + ", " + y.colorOjos + ", " + z.colorOjos);
+console.log("z==y - " + (z == y));
+console.log("z==y - " + (z === y));
+
+z = y;
+console.log(y);
+console.log(z);
+console.log("z==y - " + (z === y));
+
+y.nombre = "Rafa";
+console.log(y);
+console.log(z);
+
+y.apellido = "Trump";
+console.log(y);
+console.log(z);
+
+y = new persona();
+
+
+
+ // Numbers-Number()
+x = true;
+Number(x); // devuelve 1
+console.log(x.valueOf());
+
+
+x = false;
+Number(x); // devuelve 0
